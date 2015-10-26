@@ -1,0 +1,18 @@
+{
+  "name": "dms-seq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "documentManager.js",
+  "scripts": {
+    "test": "jasmine-node documentManagerSpec.js --forceexit --verbose"
+  },
+  "author": "Toyin",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.3.2",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.12.2",
+    "shelljs": "^0.5.3"
+  }
+}
