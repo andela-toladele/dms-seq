@@ -86,8 +86,8 @@ describe('Document Manager', function(done) {
             user.username = 'user3'
             documentManager.createUser(user).then(function() {
 
-              documentManager.getAllUsers().then(function(count) {
-                expect(count.length).toBe(4);
+              documentManager.getAllUsers().then(function(users) {
+                expect(users.length).toBe(4);
                 done();
               });
             });
