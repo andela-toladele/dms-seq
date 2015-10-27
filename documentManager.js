@@ -77,7 +77,7 @@ DocumentManager.prototype.createDocument = function(document, createdBy) {
   });
 }
 
-//Add role to a document avoiding duplicate with addToSet option
+//Add role to a document avoiding duplicate
 DocumentManager.prototype.addDocumentRole = function(docId, roleTitle) {
 
 
